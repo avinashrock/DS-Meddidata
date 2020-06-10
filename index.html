@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Medidata App</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <script src="https://use.fontawesome.com/db3abeae31.js"></script>
+    <script src="app.js"></script>
+    <div class="container">
+        <div class="nav"><h1>Medidata Basics</h1></div>
+        <div class="flexi">
+            <div class="content1"><a href="contact.html" target="_blank"><p class="nav-text">Contact us</p></a></div>
+            <div class="content2"><a href="about.html" target="_blank"><p class="nav-text">About</p></a></div>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="one">
+            <span class="information"><i class="fa fa-info-circle" aria-hidden="true"></i>
+            Click on any of the below drug study to display the list of countries and available hospitals</span>
+            <div class="drugs" id="drug1" onClick="display(event)"><p class="text">Drug Study 1</p></div>
+            <div class="drugs" id="drug2" onClick="display(event)"><p class="text">Drug Study 2</p></div>
+            <div class="drugs" id="drug3" onClick="display(event)"><p class="text">Drug Study 3</p></div>
+            <div class="drugs" id="drug4" onClick="display(event)"><p class="text">Drug Study 4</p></div>
+            <div class="drugs" id="drug5" onClick="display(event)"><p class="text">Drug Study 5</p></div>
+        </div>
+        <div class="two">
+            <div id="drag" class="drag">
+                <p class="text">Drop here</p>
+            </div>
+            <div id="drop" class="drop">
+                <p class="text">Drag this</p>
+            </div>
+        </div>
+      </div>
+<div class="foot"><p class="foot-text">Medidata joins Dassault Systemes</p></div>
+</body>
+</html>
